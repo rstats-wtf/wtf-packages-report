@@ -1,5 +1,9 @@
 # wtf-packages-report
 
+Get started via
+
+usethis::use_course("https://github.com/rstats-wtf/wtf-packages-report/archive/master.zip")
+
 * Have a look around the files here. Where are the R scripts? What are the directories `data` and `figs` for? Do the names and structure help you find things?
 * Open each R script, finish it, and run it. Remember to restart R as you go, so you are certain each file is complete, i.e. data flows through explicit write/read, not the global workspace.
   - `R/01_write-installed-packages.R`
