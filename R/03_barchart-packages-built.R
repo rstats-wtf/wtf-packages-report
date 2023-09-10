@@ -3,6 +3,10 @@
 # 1. Read data/add-on-packages-freqtable.csv into a data frame.-----------------
 # hint: readr::read_csv() or read.csv()
 # idea: try using here::here() to create the file path
+library(tidyverse)
+pkgs_addon_freqtable <- readr::read_csv(
+  here::here("data", "pkgs_addon_freqtable.csv")
+)
 
 # 2. Make a barchart from the frequency table you read in. ---------------------
 # if you use ggplot2, code like this will work:
@@ -15,3 +19,9 @@ ggplot(pkgs_addon_freqtable, aes(x = Built, y = n)) +
 # ----
 # YES overwrite the file that is there now
 # that is old output from Jenny
+ggsave(
+  here::here(
+    "figs",
+    "built-barchart.png"
+  )
+)

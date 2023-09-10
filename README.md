@@ -12,6 +12,6 @@ usethis::use_course("rstats-wtf/wtf-packages-report")
   - `R/02_wrangle-packages.R`
   - `R/03_barchart-packages-built.R`
 * It's OK if you don't finish! We can keep working on this later.
-* If you finish quickly, write an R script to run the whole analysis and, perhaps, another script that does a `make clean` style reset.
+* If you finish quickly, write an R script to run the whole analysis.
 
 Solutions are in the [solutions](https://github.com/rstats-wtf/wtf-packages-report/commit/f9fe5aacc004cf8c79356acdd4638f641f6f8ae7) branch.
